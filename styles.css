@@ -9,6 +9,11 @@ body {
   background: #fafafa;
 }
 
+section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 div {
   background: #fff;
   margin: 20px;
@@ -17,6 +22,7 @@ div {
 
 .intro {
  display: flex;
+ grid-column: 1 / 4;
 }
 
 .img-div {
@@ -27,6 +33,9 @@ div {
   width: 100%;
 }
 
-.intro p {
-  width: 700px;
+/* goal section */
+
+.goal {
+  grid-column: 1 / 2;
+  padding: 10px;
 }
