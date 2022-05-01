@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #fafafa;
+}
+
+div {
+  background: #fff;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.intro {
+ display: flex;
+}
+
+.intro img{
+  width: 100%;
+}
