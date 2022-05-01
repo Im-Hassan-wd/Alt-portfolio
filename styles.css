@@ -19,6 +19,14 @@ div {
  display: flex;
 }
 
-.intro img{
+.img-div {
+  width: 300px;
+}
+
+.intro img {
   width: 100%;
+}
+
+.intro p {
+  width: 700px;
 }
