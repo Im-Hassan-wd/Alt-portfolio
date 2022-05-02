@@ -44,8 +44,14 @@ div {
 
 .blog {
   grid-column: 2 / 4;
+  grid-row: 2 / 4;
   
 }
+
+.blog p {
+  max-width: 500px;
+}
+
 .blog-head {
   display: flex;
 }
