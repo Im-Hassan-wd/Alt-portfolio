@@ -39,3 +39,19 @@ div {
   grid-column: 1 / 2;
   padding: 10px;
 }
+
+/* blog section */
+
+.blog {
+  grid-column: 2 / 4;
+  
+}
+.blog-head {
+  display: flex;
+}
+
+.blog-head img {
+  width: 600px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
