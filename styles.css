@@ -61,3 +61,17 @@ div {
   border-radius: 10px;
   margin-left: 10px;
 }
+
+/* hobbies */
+.hobbies {
+  grid-row: 3 / 5;
+}
+
+.hobbies h3 {
+  margin: 10px ;
+}
+
+.hobbies img {
+  width: 100%;
+  border-radius: 10px;
+}
