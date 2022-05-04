@@ -80,6 +80,15 @@ section {
 
 /* experience */
 
-.experience {
+.experiences {
   grid-row: 4 / 5;  
+}
+
+.experiences img {
+  width: 100px;
+}
+
+.experience {
+  display: flex;
+  justify-content: space-between;
 }
