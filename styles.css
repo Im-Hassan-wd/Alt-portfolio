@@ -91,7 +91,17 @@ section {
 
 .experience {
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
 
+}
+
+.experience div {
+  max-width: 600px;
+  margin-left: 40px;
+}
+
+.experience span {
+  display: block;
+  font-style: italic;
+  text-transform: uppercase;
 }
