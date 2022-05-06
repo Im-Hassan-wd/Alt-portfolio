@@ -85,17 +85,17 @@ section {
   grid-row: 4 / 5;
 }
 
-.experiences img {
+.experiences img, .education-div img {
   width: 100px;
 }
 
-.experience {
+.experience, .education-div {
   display: flex;
   align-items: flex-start;
   margin: 20px;
 }
 
-.experience div {
+.experience div, .education {
   max-width: 600px;
   margin-left: 40px;
 }
