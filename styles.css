@@ -71,10 +71,15 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 .intro {
  display: flex;
  grid-column: 1 / 4;
+ justify-content: space-between;
+}
+
+.intro-heading {
+  max-width: 1000px;
 }
 
 .img-div {
-  width: 300px;
+  width: 200px;
 }
 
 .intro img {
