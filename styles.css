@@ -120,6 +120,7 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
   height: 300px;
   border-radius: 10px;
   margin-bottom: 20px;
+  object-fit: cover;
 }
 
 /* hobbies */
@@ -177,9 +178,6 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 /* skills */
 .skills {
   grid-row: 5 / 7;
-}
-
-.skills h3 {
 }
 
 .skills div{
