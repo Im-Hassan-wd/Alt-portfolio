@@ -220,7 +220,7 @@ form label {
   display: block;
   margin: 20px 0 10px;
 }
-form button {
+form button, .blog a {
   margin-top: 30px;
   border-radius: 36px;
   background: #fee996;
@@ -232,6 +232,9 @@ form button {
   padding: 10px 16px;
   cursor: pointer;
   letter-spacing: 2px;
+}
+.blog a {
+  display: inline-block;
 }
 .error {
   color: #ff0099;
