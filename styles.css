@@ -190,10 +190,11 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 .skills span {
   text-transform: uppercase;
   margin-right: auto;
+  font-size: 0.8rem;
 }
 
 .skills input {
-  width: 200px;
+  max-width: 300px;
 }
 
 /* login style */
