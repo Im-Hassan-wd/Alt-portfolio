@@ -128,7 +128,7 @@ section {
 .skills div{
   display: flex;
   align-items: center;
-  margin: 10px 0;
+  margin: 25px 0;
 }
 
 .skills span {
