@@ -9,6 +9,11 @@ body {
   background: #fafafa;
 }
 
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
