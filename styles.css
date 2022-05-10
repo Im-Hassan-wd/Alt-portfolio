@@ -19,7 +19,7 @@ section {
   grid-template-columns: repeat(3, 1fr);
 }
 
-.intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills {
+header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills {
   background: #fff;
   margin: 20px;
   border-radius: 10px;
