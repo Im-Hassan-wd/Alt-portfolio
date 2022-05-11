@@ -132,7 +132,7 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
   margin: 20px;
 }
 
-.experience div, .education {
+.experience div, .education div {
   max-width: 600px;
   margin-left: 40px;
 }
