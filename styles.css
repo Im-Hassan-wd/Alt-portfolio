@@ -111,7 +111,7 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
   object-fit: cover;
 }
 
-/* experience */
+/* experience and education*/
 .experiences {
   grid-column: 2 / 4;
   grid-row: 4 / 5;
