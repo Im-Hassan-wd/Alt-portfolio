@@ -137,7 +137,7 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
   margin-left: 40px;
 }
 
-.experience span {
+.experience span, .education span {
   display: block;
   font-style: italic;
   text-transform: uppercase;
