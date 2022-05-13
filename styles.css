@@ -243,3 +243,9 @@ form button, .blog a {
   font-size: 0.9rem;
   font-weight: bold;
 }
+
+@media (max-width: 780px) {
+  section, .education, .experience, .intro {
+    display: block;
+  }
+}
