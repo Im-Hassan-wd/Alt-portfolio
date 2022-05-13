@@ -248,4 +248,10 @@ form button, .blog a {
   section, .education, .experience, .intro {
     display: block;
   }
+  .education, .experience, .intro {
+    margin: 20px 0 20px 10px;
+  }
+  .experience div, .education div {
+    margin-left: 0;
+  }
 }
