@@ -148,6 +148,11 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 .experiences {
   grid-column: 2 / 4;
   grid-row: 4 / 5;
+  background: #fafafa;
+}
+
+.experience {
+  background: none;
 }
 
 .education-div {
