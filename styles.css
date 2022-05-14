@@ -44,6 +44,8 @@ nav ul {
 nav a {
   text-decoration: none;
   padding: 7px;
+  text-transform: uppercase;
+  color: #ffda46;
 }
 
 nav a:hover {
