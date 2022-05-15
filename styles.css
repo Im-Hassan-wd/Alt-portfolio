@@ -64,7 +64,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills {
+header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills, .contact {
   background: #fff;
   margin: 20px;
   border-radius: 10px;
@@ -253,10 +253,10 @@ form button, .blog a {
 }
 
 @media (max-width: 780px) {
-  section, .education, .experience, .intro {
+  section, .education, .experience, .intro, .contact {
     display: block;
   }
-  .education, .experience, .intro {
+  .education, .experience, .intro, .contact {
     margin: 20px 0 20px 10px;
   }
   .experience div, .education div {
