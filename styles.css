@@ -7,6 +7,10 @@
   font-family: 'Nunito Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fafafa;
 }
@@ -150,7 +154,7 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 .experiences {
   grid-column: 2 / 4;
   grid-row: 4 / 5;
-  background: #000;
+  background: #1e211e;
   box-shadow: 0.2px 2px 2px rgba(0, 0, 0, 0.1);
   color: #fafafa;
 }
@@ -257,7 +261,7 @@ form button, .blog a {
 /* .contact section */
 .contact {
   grid-column: 1 / 4;
-  background: #000;
+  background: #1e211e;
   color: #fafafa;
 }
 
