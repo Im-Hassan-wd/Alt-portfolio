@@ -283,12 +283,26 @@ form button, .blog a, .project-heading li {
 /* .contact section */
 .project-heading {
   display: flex;
+  align-items: center;
 }
+
+.project-heading ul{
+  display: flex;
+}
+
 .project-heading li {
   list-style: none;
   padding: 10px;
   margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: 1px solid #1e211e;
+}
 
+.project-heading li:nth-child(1) {
+  background: #fee996;
 }
 /* .contact section */
 .contact, .project-heading {
