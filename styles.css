@@ -256,7 +256,7 @@ form label {
   display: block;
   margin: 20px 0 10px;
 }
-form button, .blog a {
+form button, .blog a, .project-heading li {
   margin-top: 30px;
   border-radius: 36px;
   background: #fee996;
@@ -280,6 +280,16 @@ form button, .blog a {
   font-weight: bold;
 }
 
+/* .contact section */
+.project-heading {
+  display: flex;
+}
+.project-heading li {
+  list-style: none;
+  padding: 10px;
+  margin: 10px;
+
+}
 /* .contact section */
 .contact, .project-heading {
   grid-column: 1 / 4;
