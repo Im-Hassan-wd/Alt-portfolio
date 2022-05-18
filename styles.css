@@ -303,6 +303,12 @@ form button, .blog a, .project-heading li {
 
 .project-heading li:nth-child(1) {
   background: #fee996;
+  border: none;
+}
+
+.project-heading li:hover{
+  background: #fee996;
+
 }
 /* .contact section */
 .contact, .project-heading {
