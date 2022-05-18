@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 
 html {
@@ -26,16 +28,19 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 h2 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
 }
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 h4 {
+  font-size: 1.3rem;
+}
+p, span {
   font-size: 1.1rem;
 }
 nav ul {
@@ -120,6 +125,10 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
   margin-top: 10px;
   padding: 7px;
   border-radius: 7px;
+}
+
+.blog-head h3 {
+  margin-bottom: 20px;
 }
 
 .blog-head img {
@@ -214,10 +223,14 @@ form h2 {
   font-weight: 900;
   margin-bottom: 40px;
 }
-#contact form {
+#contact form, form.signup {
   background: #1e211e;
   max-width: 700px;
   color: #fafafa;
+}
+form.signup  {
+  background: #fff;
+  color: #000;
 }
 form {
   max-width: 350px;
@@ -254,6 +267,7 @@ form button, .blog a {
 }
 .blog a {
   display: inline-block;
+  text-decoration: none;
 }
 .error {
   color: #ff0099;
