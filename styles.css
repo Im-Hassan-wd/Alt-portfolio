@@ -73,7 +73,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills, .contact {
+header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills, .contact, .project-heading {
   background: #fff;
   margin: 20px;
   border-radius: 10px;
@@ -281,7 +281,7 @@ form button, .blog a {
 }
 
 /* .contact section */
-.contact {
+.contact, .project-heading {
   grid-column: 1 / 4;
   background: #fff;
 }
