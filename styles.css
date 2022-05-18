@@ -293,3 +293,12 @@ form button, .blog a {
     margin-left: 0;
   }
 }
+
+@media (max-width: 400px) {
+  nav ul {
+    display: block;
+  }
+  nav li {
+    padding: 10px;
+  }
+}
