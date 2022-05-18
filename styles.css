@@ -85,11 +85,11 @@ section {
   grid-row: 4 / 5;
 }
 
-.experiences img, .education-div img {
+.experiences img, .education img {
   width: 100px;
 }
 
-.experience, .education-div {
+.experience, .education {
   display: flex;
   align-items: flex-start;
   margin: 20px;
