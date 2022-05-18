@@ -197,6 +197,10 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
   text-transform: uppercase;
 }
 
+.education p {
+  margin-top: 10px;
+}
+
 /* skills */
 .skills {
   grid-row: 5 / 7;
