@@ -15,6 +15,8 @@ html {
 
 body {
   background: #fafafa;
+  background: #32353a;
+  color: #fafafa;
 }
 
 main {
@@ -59,11 +61,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #666;
+  color: #fafafa;
 }
 
 nav a.active {
-  color: #333;
+  color: #fafafa;
   font-weight: bold;
 }
 
@@ -73,8 +75,8 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills, .contact, .project-heading, .project {
-  background: #fff;
+header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills, .contact, .project-heading, .projects {
+  background: #2a2b2f;
   margin: 20px;
   border-radius: 10px;
   padding: 10px;
@@ -163,7 +165,6 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 .experiences {
   grid-column: 2 / 4;
   grid-row: 4 / 5;
-  background: #fff;
   box-shadow: 0.2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
@@ -322,9 +323,10 @@ div.projects {
   width: 100%;
 }
 
-div.project {
+.project {
   background: #ffff;
   margin: 0 20px;
+  max-width: 300px;
 }
 .project a {
   display: inline-block;
@@ -334,15 +336,19 @@ div.project {
 }
 .project span {
   display: block;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .project a.code{
   background: none;
   box-shadow: 0.5px 2px 2px rgba(0, 0, 0, 0.1);
 }
 /* .contact section */
+.contact {
+  background: #fff; 
+}
 .contact, .project-heading, .projects {
   grid-column: 1 / 4;
-  background: #fff;
 }
 
 @media (max-width: 780px) {
