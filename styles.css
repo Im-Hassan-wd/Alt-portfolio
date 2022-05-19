@@ -282,7 +282,7 @@ form button, .blog a, .project-heading li {
 
 /* .contact section */
 .project-heading {
-  display: flex;
+  /* display: flex; */
   align-items: center;
 }
 
@@ -293,7 +293,8 @@ form button, .blog a, .project-heading li {
 .project-heading li {
   list-style: none;
   padding: 10px;
-  margin: 10px;
+  margin: 10px 0;
+  margin-right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -310,8 +311,22 @@ form button, .blog a, .project-heading li {
   background: #fee996;
 
 }
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  background: #fafafa;
+}
+
+.projects img {
+  width: 100%;
+}
+
+.project {
+  background: #fff;
+}
 /* .contact section */
-.contact, .project-heading {
+.contact, .project-heading, .projects {
   grid-column: 1 / 4;
   background: #fff;
 }
