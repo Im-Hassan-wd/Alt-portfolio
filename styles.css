@@ -16,6 +16,11 @@ main {
   margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
 nav ul {
   list-style: none;
   display: flex;
@@ -160,7 +165,6 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 }
 
 .skills h3 {
-  text-transform: uppercase;
 }
 
 .skills div{
@@ -180,7 +184,6 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 
 /* login style */
 form h2 {
-  font-size: 1.5rem;
   font-weight: 900;
   margin-bottom: 40px;
 }
