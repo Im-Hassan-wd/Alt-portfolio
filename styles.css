@@ -73,7 +73,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
-header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills, .contact, .project-heading {
+header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-div, .skills, .contact, .project-heading, .project {
   background: #fff;
   margin: 20px;
   border-radius: 10px;
@@ -256,9 +256,9 @@ form label {
   display: block;
   margin: 20px 0 10px;
 }
-form button, .blog a, .project-heading li {
+form button, .blog a, .project-heading li, .project a {
   margin-top: 30px;
-  border-radius: 36px;
+  border-radius: 10px;
   background: #fee996;
   border: 0;
   text-transform: uppercase;
@@ -312,7 +312,7 @@ form button, .blog a, .project-heading li {
 
 }
 
-.projects {
+div.projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   background: #fafafa;
@@ -322,8 +322,15 @@ form button, .blog a, .project-heading li {
   width: 100%;
 }
 
-.project {
-  background: #fff;
+div.project {
+  background: #ffff;
+  margin: 0 20px;
+}
+.project a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 10px;
+  color: #000;
 }
 /* .contact section */
 .contact, .project-heading, .projects {
