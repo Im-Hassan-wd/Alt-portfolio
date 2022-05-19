@@ -56,7 +56,7 @@ nav a {
   text-decoration: none;
   padding: 7px;
   text-transform: uppercase;
-  color: #a18204;
+  color: #fee996;
   font-weight: bold;
 }
 
@@ -344,9 +344,6 @@ div.projects {
   box-shadow: 0.5px 2px 2px rgba(0, 0, 0, 0.1);
 }
 /* .contact section */
-.contact {
-  background: #fff; 
-}
 .contact, .project-heading, .projects {
   grid-column: 1 / 4;
 }
