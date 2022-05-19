@@ -82,6 +82,14 @@ header, .intro, .blog, .experience, .goal, .hobbies, .experiences, .education-di
 .blog p {
   max-width: 500px;
 }
+.blog a {
+  background: #fee996;
+  color: #000;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px;
+  border-radius: 7px;
+}
 
 .blog-head {
   display: flex;
