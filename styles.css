@@ -314,19 +314,23 @@ form button, .blog a, .project-heading li, .project a {
 }
 
 div.projects {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  background: #fafafa;
+  background: #32353a;
 }
 
 .projects img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .project {
-  background: #ffff;
+  background: #2a2b2f;
   margin: 0 20px;
-  max-width: 300px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 10px;
 }
 .project a {
   display: inline-block;
