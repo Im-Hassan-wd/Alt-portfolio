@@ -299,7 +299,7 @@ form button, .blog a, .project-heading li, .project a {
   justify-content: center;
   align-items: center;
   background: none;
-  border: 1px solid #1e211e;
+  box-shadow: 0.5px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 .project-heading li:nth-child(1) {
